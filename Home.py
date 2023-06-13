@@ -78,6 +78,3 @@ with col1:
 with col2:
     st.header(f"{selection} price bar chart")
     st.plotly_chart(fig_bar, theme="streamlit")
-
-# with open("assets/css/style.css") as file:
-#     st.markdown(f"<style>{file.read()}</style>", unsafe_allow_html = True)

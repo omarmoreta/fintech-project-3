@@ -9,6 +9,9 @@ st.set_page_config(
     initial_sidebar_state="auto"
 )
 
+# page header
+st.header("Recess: Black Jack Game")
+
 # embed blackjack game in iframe
 components.iframe(
     "https://thirsty-bhaskara-2f67ea.netlify.app/", 
